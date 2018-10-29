@@ -1,0 +1,10 @@
+version: "2"
+services:
+    slt:
+       build: .
+       ports:
+           - "443:443"
+       volumes:
+           - ${PWD}/config.yml:/go/src/app/config.yml
+       restart: always
+       network_mode: "host"
