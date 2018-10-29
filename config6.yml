@@ -1,5 +1,5 @@
 # bind to this address to accept new TLS connections
-bind_addr: "192.168.0.1:443"
+bind_addr: "[2409:12:6000:2e00:215:17ff:feea:44cc]:443"
 
 frontends:
   fono.jp:
