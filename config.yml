@@ -22,3 +22,7 @@ frontends:
     backends:
       -
         addr: "192.168.0.1:8443"
+  emacs.tech:
+    backends:
+      -
+        addr: "192.168.0.1:8443"
