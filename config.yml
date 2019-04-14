@@ -1,28 +1,28 @@
 # bind to this address to accept new TLS connections
-bind_addr: "192.168.107.1:443"
+bind_addr: "192.168.100.101:443"
 
 frontends:
   fono.jp:
     backends:
       -
-        addr: "192.168.0.1:8443"
+        addr: "127.0.0.1:8443"
   vpn.fono.jp:
     backends:
       -
-        addr: "192.168.0.1:1194"
+        addr: "127.0.0.1:1194"
   xn--n8jaj1e5azegs1r0c8d2452g.jp:
     backends:
       -
-        addr: "192.168.0.1:8443"
+        addr: "127.0.0.1:8443"
   ma.fono.jp:
     backends:
       -
-        addr: "192.168.0.1:8443"
+        addr: "127.0.0.1:8443"
   4no.jp:
     backends:
       -
-        addr: "192.168.0.1:8443"
+        addr: "127.0.0.1:8443"
   emacs.tech:
     backends:
       -
-        addr: "192.168.0.1:8443"
+        addr: "127.0.0.1:8443"
